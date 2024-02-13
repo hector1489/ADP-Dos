@@ -1,0 +1,8 @@
+export { default as NavBar } from './Navbar/Navbar'
+export { default as IntroGallery } from './IntroGallery/IntroGallery'
+export { default as VideoList } from './VideoList/VideoList'
+export { default as Contacto } from './Contacto/Contacto'
+export { default as Footer } from './Footer/Footer'
+export { default as Description } from './Description/Description'
+export { default as Fest } from './Fest/Fest'
+export { default as PastFeast } from './PastFeast/PastFeast'

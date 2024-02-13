@@ -1,0 +1,17 @@
+.custom-navbar {
+    height: 100px;
+    border: 1px solid #138b0f;
+}
+
+.text-color-one {
+ color: #0dbb1b ;
+}
+
+.text-color-two {
+    color: #04380b;
+}
+
+.logo-navbar img {
+    width: 70px;
+    height: 70px;
+}

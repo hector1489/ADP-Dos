@@ -1,0 +1,52 @@
+.video-list-container {
+    overflow-x: auto;
+}
+
+.custom-video{
+    margin: 20px;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.video-item {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 0 0 auto;
+    min-width: 300px;
+}
+
+.video-wrapper {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-actions {
+    margin-top: 10px;
+}
+
+.play-button,
+.share-button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.play-button:hover,
+.share-button:hover {
+    background-color: #0056b3;
+}
