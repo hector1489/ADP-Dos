@@ -1,10 +1,10 @@
-import logo from '../../assets/img/logo_amigosDelPuangue.png'
+import logo from '../../assets/img/logo2.jpeg'
 import './Footer.css'
 
 
 const Footer = () => {
     return (
-        <footer className='footer d-flex justify-content-around align-items-center p-3'>
+        <footer className='footer d-flex justify-content-around align-items-center p-3 mt-3'>
             <div className="d-flex gap-3 text-white align-items-center">
                 <div className='logo-footer'>
                 <img src={logo} alt="logo"/>

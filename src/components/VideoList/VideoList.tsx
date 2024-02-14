@@ -1,6 +1,6 @@
 import { useContext, useEffect } from 'react';
 import { DataContext } from '../../context/DataContext';
-import './video.css';
+import './VideoList.css';
 
 const VideoList = () => {
   const { videos, setVideos } = useContext(DataContext);

@@ -1,0 +1,24 @@
+.fest-container {
+    width: 50rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.fest-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.fest-description {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #666;
+}
+
+.fest-image {
+    max-width: 100%;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

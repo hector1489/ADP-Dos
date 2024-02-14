@@ -1,7 +1,7 @@
 import { Navbar, Nav, Container } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
 import './Navbar.css'
-import logo from '../../assets/img/logo_amigosDelPuangue.png'
+import logo from '../../assets/img/logo2.jpeg'
 
 const NavBar = () => {
 
@@ -12,7 +12,7 @@ const NavBar = () => {
   }
 
   return (
-    <Navbar expand="lg" className="custom-navbar bg-body-tertiary">
+    <Navbar expand="lg" className="custom-navbar bg-body-tertiary" fixed='top'>
       <Container>
         <Navbar.Brand href="#home" className='d-flex align-items-center gap-2'>
           <div className='logo-navbar'>

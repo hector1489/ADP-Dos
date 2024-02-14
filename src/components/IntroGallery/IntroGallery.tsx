@@ -10,23 +10,23 @@ function CarouselFadeExample() {
       <Carousel.Item>
         <img src={Image1} alt="image1" className="d-block w-100" />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Tata Barahona</h3>
+          <p>Festin sin piedra 2020.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img src={Image2} alt="image2" className="d-block w-100" />
         <Carousel.Caption>
           <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>Festin sin piedra 2020.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img src={Image3} alt="image3" className="d-block w-100" />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Trovadores De La Loma</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Festin sin piedra 2020.
           </p>
         </Carousel.Caption>
       </Carousel.Item>
