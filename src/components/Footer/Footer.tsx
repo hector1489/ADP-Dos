@@ -11,7 +11,8 @@ const Footer = () => {
                 </div>
                 <div className='text-white'>
                     <h5 className='fw-bold'>A.D.P.</h5>
-                    <p>Amigos Del Puangue.</p>
+                    <p>@Amigos Del Puangue.</p>
+                    <p>Todos los Derechos reservados.</p>
                 </div>
             </div>
             <div className="text-white">
@@ -27,7 +28,7 @@ const Footer = () => {
             <div className="text-white">
                 <h5 className='fw-bold'>Contacto</h5>
                 <p>amigosdelpuangue.cvi@gmail.com </p>
-                <p>Telefono</p>
+                <p>Haz click en nustras redes sociales.</p>
             </div>
         </footer>
     );

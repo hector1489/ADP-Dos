@@ -9,7 +9,7 @@ const Description = () => {
         al cuidado del medio ambiente, el fomento de la cultura y la música en la comuna de Curacaví,
         Región Metropolitana de Chile.
 
-        Desde nuestra fundación en 2005, hemos trabajado incansablemente para promover la protección
+        Desde nuestra fundación en elaño 2000, hemos trabajado incansablemente para promover la protección
         y preservación del entorno natural de la cuenca del río Puangue, así como para impulsar
         iniciativas culturales y musicales que enriquezcan nuestra comunidad. Nuestra misión es crear
         conciencia sobre la importancia de conservar nuestro patrimonio natural y cultural, involucrando
@@ -33,7 +33,7 @@ const Description = () => {
 
         Siempre estamos a disposición para cualquier consulta o propuesta de colaboración que deseen plantearnos.
         Agradecemos de antemano su atención y consideración, y esperamos tener la oportunidad de trabajar
-        juntos en un futuro próximo.
+        juntos en un futuro próximo <span className="text-danger">.</span>
       </p>
 
     </div>

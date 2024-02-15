@@ -1,6 +1,7 @@
 import { createContext, useState, useMemo } from 'react'
 
 export interface VideoItem {
+  id: number
   urlVideo: string
   title: string
   description: string

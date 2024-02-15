@@ -1,52 +1,56 @@
 [
   {
+    "id": 1,
     "urlVideo": "https://www.youtube.com/watch?v=kdyfYXyqCdk&ab_channel=amigosdelpuangue",
     "title": "Cetis",
     "description": "CETIS una banda de rock de la comuna de curacavi Santiago de chile. la banda tiene canciones de su propia autoria."
   },
   {
+    "id": 2,
     "urlVideo": "https://www.youtube.com/watch?v=MU6fruCCpCQ&ab_channel=amigosdelpuangue",
     "title": "Tata Barahona",
     "description": "En este año 2020 pudimos contar con la gran presencia del sr. Pedro Antonio Barahona. Quien lleno nuestros corazones con su folk chileno. "
   },
   {
+    "id": 3,
     "urlVideo": "https://www.youtube.com/watch?v=HEUu5RRZIL8&ab_channel=amigosdelpuangue",
     "title": "Trovadores De La Loma",
     "description": "En este año 2020 como agrupación brindamos homenaje a los grandes impulsores de la cultura en curacaví. "
   },
   {
+    "id": 4,
     "urlVideo": "https://www.youtube.com/watch?v=PuSr_9fh5e8&ab_channel=amigosdelpuangue",
     "title": "Alto Voltaje",
     "description": "A mitad de la noche el silencio del break se interrumpe por el sonido fuerte de Alto Voltaje!"
   },
   {
+    "id": 5,
     "urlVideo": "https://www.youtube.com/watch?v=vwefpyboyLw&ab_channel=amigosdelpuangue",
     "title": "Gasper MC",
     "description": "En este año 2020 pudimos contar con la gran presencia del sr. Pedro Antonio Barahona. Quien lleno nuestros corazones con su folk chileno. "
   },
   {
+    "id": 6,
+    "urlVideo": "https://www.youtube.com/watch?v=qE8t_7II9jA&ab_channel=JaraSantaSkuad",
+    "title": "Jara Santa Skuad",
+    "description": "En este año 2020 pudimos contar con la gran presencia del sr. Pedro Antonio Barahona. Quien lleno nuestros corazones con su folk chileno. "
+  },
+  {
+    "id": 7,
     "urlVideo": "https://www.youtube.com/watch?v=W11xkkh-OMM&ab_channel=amigosdelpuangue",
     "title": "Puros Jiles",
     "description": "En este año 2020 pudimos contar con la gran presencia del sr. Pedro Antonio Barahona. Quien lleno nuestros corazones con su folk chileno. "
   },
   {
-    "urlVideo": "https://www.youtube.com/watch?v=W11xkkh-OMM&ab_channel=amigosdelpuangue",
-    "title": "Puros Jiles",
-    "description": "En este año 2020 pudimos contar con la gran presencia del sr. Pedro Antonio Barahona. Quien lleno nuestros corazones con su folk chileno. "
-  },
-  {
+    "id": 8,
     "urlVideo": "https://www.youtube.com/watch?v=fOGhfkCPJ3w&ab_channel=amigosdelpuangue",
     "title": "Picapiedras",
     "description": "En este año 2020 pudimos contar con la gran presencia del sr. Pedro Antonio Barahona. Quien lleno nuestros corazones con su folk chileno. "
   },
   {
+    "id": 9,
     "urlVideo": "https://www.youtube.com/watch?v=dci0WFJZQrA&ab_channel=amigosdelpuangue",
     "title": "Backdraft",
-    "description": "En este año 2020 pudimos contar con la gran presencia del sr. Pedro Antonio Barahona. Quien lleno nuestros corazones con su folk chileno. "
-  },
-  {
-    "urlVideo": "https://www.youtube.com/watch?v=qE8t_7II9jA&ab_channel=JaraSantaSkuad",
-    "title": "Jara Santa Skuad",
     "description": "En este año 2020 pudimos contar con la gran presencia del sr. Pedro Antonio Barahona. Quien lleno nuestros corazones con su folk chileno. "
   }
 ]
