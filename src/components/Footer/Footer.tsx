@@ -12,7 +12,6 @@ const Footer = () => {
                 <div className='text-white'>
                     <h5 className='fw-bold'>A.D.P.</h5>
                     <p>@Amigos Del Puangue.</p>
-                    <p>Todos los Derechos reservados.</p>
                 </div>
             </div>
             <div className="text-white">
