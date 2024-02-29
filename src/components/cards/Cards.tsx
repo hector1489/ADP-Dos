@@ -15,6 +15,7 @@ const CardsList = () => {
     <div className="custom-videos d-flex flex-wrap justify-content-around">
       {videos.map((video) => (
         <Card key={video.id} className="card mb-3" style={{ width: '18rem' }}>
+          <Card.Img variant="top" src={video.image} alt={video.title} />
           <Card.Body>
             <Card.Title>{video.title}</Card.Title>
             <Card.Text>{video.description}</Card.Text>
