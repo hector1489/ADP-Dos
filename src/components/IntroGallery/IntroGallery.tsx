@@ -17,7 +17,7 @@ function CarouselFadeExample() {
       <Carousel.Item>
         <img src={Image2} alt="image2" className="d-block w-100" />
         <Carousel.Caption>
-          <h3>Second slide label</h3>
+          <h3>Mubastick</h3>
           <p>Festin sin piedra 2020.</p>
         </Carousel.Caption>
       </Carousel.Item>

@@ -22,7 +22,7 @@ const Footer = () => {
             </div>
             <div className="text-white">
                 <h5 className='fw-bold'>Enlaces</h5>
-                <p>instagrams</p>
+                <a href="https://www.instagram.com/festin_sin_piedra2024?igsh=NjgxZ292ZTRzY2Nv" target="_blank">Instagram</a>
                 <p>facebook</p>
             </div>
             <div className="text-white">
