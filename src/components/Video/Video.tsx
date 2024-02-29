@@ -1,13 +1,9 @@
-import { useRef, useEffect, useContext } from 'react'
-import { Card, Button } from "react-bootstrap"
-import { Link } from "react-router-dom"
-import { DataContext } from '../../context/DataContext'
+import { useRef, useEffect } from 'react'
 import videoPresentation from '../../assets/img/Festin sin Piedra 2020 OFICIAL.mp4'
 import './Video.css'
 
 const VideoList = () => {
   const videoRef = useRef<HTMLVideoElement>(null)
-  const { videos, setVideos } = useContext(DataContext);
 
   const handlePlay = () => {
     if (videoRef.current) {
@@ -23,19 +19,6 @@ const VideoList = () => {
     }
   }, [])
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch('src/video.json');
-        const data = await response.json();
-        setVideos(data);
-      } catch (error) {
-        console.error('Error al cargar datos:', error);
-      }
-    };
-
-    fetchData();
-  }, [setVideos]);
 
   return (
     <div className="video-container mt-5">
@@ -48,20 +31,6 @@ const VideoList = () => {
         <video ref={videoRef} width="100%" height="100%" controls autoPlay muted>
           <source src={videoPresentation} type="video/mp4" />
         </video>
-      </div>
-      <div className="custom-videos d-flex flex-wrap justify-content-around">
-      {videos.map((video) => (
-        <Card key={video.id} className="card mb-3" style={{ width: '18rem' }}>
-
-          <Card.Body>
-            <Card.Title>{video.title}</Card.Title>
-            <Card.Text>{video.description}</Card.Text>
-            <Link to={video.urlVideo} target="_blank">
-              <Button variant="primary">Enlace a Youtube</Button>
-            </Link>
-          </Card.Body>
-        </Card>
-      ))}
       </div>
     </div>
   );

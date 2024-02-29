@@ -1,4 +1,4 @@
-import { Fest,Video } from "../../components"
+import { Cards, Fest,Video } from "../../components"
 
 
 const News= () => {
@@ -7,6 +7,7 @@ const News= () => {
         <div className="d-flex flex-column justify-content-center mt-3">
         <Fest />
         <Video />
+        <Cards />
         </div>
     )
 }
