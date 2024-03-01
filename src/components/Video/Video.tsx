@@ -27,7 +27,7 @@ const VideoList = () => {
           En vísperas de nuestro <span className='text-success'>Festín Sin Piedra</span> 2024 <span className='text-warning'>,</span> <br /> recordamos a algunos grandes del 2020 <span className='text-danger'>.</span>
         </h3>
       </div>
-      <div className="p-5">
+      <div className="video-container-video p-5">
         <video ref={videoRef} width="100%" height="100%" controls autoPlay muted>
           <source src={videoPresentation} type="video/mp4" />
         </video>

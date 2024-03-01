@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import { Card, Button } from "react-bootstrap"
 import { DataContext } from '../../context/DataContext'
 import videoJson from '../../video.json'
+import './Cards.css'
 
 const CardsList = () => {
   const { videos, setVideos } = useContext(DataContext);
@@ -12,21 +13,21 @@ const CardsList = () => {
   }, [setVideos]);
 
   return (
-    <div className="custom-videos d-flex flex-wrap justify-content-around">
+    <div className="d-flex flex-wrap justify-content-around">
       {videos.map((video) => (
-        <Card key={video.id} className="card mb-3" style={{ width: '18rem' }}>
-          <Card.Img variant="top" src={video.image} alt={video.title} />
-          <Card.Body>
+        <Card key={video.id} className="card mb-3">
+          <Card.Img variant="top" src={video.image} alt={video.title} className="card-img-top" />
+          <Card.Body className='text-white text-center'>
             <Card.Title>{video.title}</Card.Title>
             <Card.Text>{video.description}</Card.Text>
-            <Link to={video.urlVideo} target="_blank">
+            <Link to={video.urlVideo} target="_blank" className='d-flex justify-content-center'>
               <Button variant="primary">Enlace a Youtube</Button>
             </Link>
           </Card.Body>
         </Card>
       ))}
     </div>
-  );
-};
+  )
+}
 
-export default CardsList;
+export default CardsList
