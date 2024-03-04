@@ -12,7 +12,7 @@ const NavBar = () => {
   }
 
   return (
-    <Navbar expand="lg" className="custom-navbar bg-body-tertiary" fixed='top'>
+    <Navbar expand="md" className="custom-navbar bg-body-tertiary" fixed='top'>
       <Container>
         <Navbar.Brand href="#home" className='d-flex align-items-center gap-2'>
           <div className='logo-navbar'>
@@ -20,8 +20,8 @@ const NavBar = () => {
           </div>
           <h3>A.D.P.</h3>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <NavLink to="/" className={setActiveClass}>
               Inicio
