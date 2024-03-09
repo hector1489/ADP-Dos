@@ -12,7 +12,7 @@ const Footer = () => {
             </div>
             <div className='text-white mt-1'>
               <h5 className='fw-bold'>A.D.P.</h5>
-              <p>@Amigos Del Puangue.</p>
+              <p>Amigos Del Puangue.</p>
             </div>
           </div>
           <div className="col-md-3">
