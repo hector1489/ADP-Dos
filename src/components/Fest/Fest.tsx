@@ -1,4 +1,4 @@
-import festin from '../../assets/img/festin2024secondVersion.jpeg';
+import festin from '../../assets/img/festin2024.jpeg';
 import './Fest.css';
 
 const Fest = () => {

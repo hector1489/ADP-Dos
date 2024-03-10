@@ -43,7 +43,7 @@ const Contacto = () => {
           <Form.Label>Envíanos un mensaje</Form.Label>
           <Form.Control as="textarea" rows={3} name="message" required />
         </Form.Group>
-        <Button className="btn css-button-gradient--5 fw-bold" type="submit">
+        <Button className="btn fw-bold" type="submit">
           Enviar
         </Button>
         {showError && <Alert variant="danger" className="mt-3">Error al enviar el formulario. Inténtalo de nuevo más tarde.</Alert>}
