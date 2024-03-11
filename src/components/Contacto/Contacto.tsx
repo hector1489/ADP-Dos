@@ -5,11 +5,14 @@ import './contacto.css'
 const Contacto = () => {
   const [showError, setShowError] = useState(false)
   const [showSuccess, setShowSuccess] = useState(false)
+  const [showSending, setShowSending] = useState(false) // Nuevo estado para mostrar el mensaje de envío
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     const form = e.currentTarget
     const formData = new FormData(form)
+
+    setShowSending(true) // Mostrar el mensaje de envío
 
     try {
       const response = await fetch(form.action, {
@@ -29,6 +32,8 @@ const Contacto = () => {
     } catch (error) {
       setShowError(true)
       console.error('Error al enviar el formulario:', error)
+    } finally {
+      setShowSending(false) // Ocultar el mensaje de envío una vez que se haya completado
     }
   }
 
@@ -43,8 +48,8 @@ const Contacto = () => {
           <Form.Label>Envíanos un mensaje</Form.Label>
           <Form.Control as="textarea" rows={3} name="message" required />
         </Form.Group>
-        <Button className="btn fw-bold" type="submit">
-          Enviar
+        <Button className="submit-button fw-bold" type="submit" disabled={showSending}>
+          {showSending ? 'Enviando...' : 'Enviar'}
         </Button>
         {showError && <Alert variant="danger" className="mt-3">Error al enviar el formulario. Inténtalo de nuevo más tarde.</Alert>}
         {showSuccess && <Alert variant="success" className="mt-3">¡El formulario se envió correctamente!</Alert>}
