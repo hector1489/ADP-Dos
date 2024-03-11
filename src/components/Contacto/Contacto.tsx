@@ -5,14 +5,14 @@ import './contacto.css'
 const Contacto = () => {
   const [showError, setShowError] = useState(false)
   const [showSuccess, setShowSuccess] = useState(false)
-  const [showSending, setShowSending] = useState(false) // Nuevo estado para mostrar el mensaje de envío
+  const [showSending, setShowSending] = useState(false)
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     const form = e.currentTarget
     const formData = new FormData(form)
 
-    setShowSending(true) // Mostrar el mensaje de envío
+    setShowSending(true)
 
     try {
       const response = await fetch(form.action, {
@@ -33,7 +33,7 @@ const Contacto = () => {
       setShowError(true)
       console.error('Error al enviar el formulario:', error)
     } finally {
-      setShowSending(false) // Ocultar el mensaje de envío una vez que se haya completado
+      setShowSending(false)
     }
   }
 
