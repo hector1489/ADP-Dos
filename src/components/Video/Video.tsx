@@ -24,7 +24,7 @@ const VideoList = () => {
     <div className="video-container mt-5">
       <div className='video-container-title d-flex text-center justify-content-center m-3'>
         <h3 className='p-3'>
-          En vísperas de nuestro <span className='text-success'>Festín Sin Piedra</span> 2024 <span className='text-warning'>,</span> <br /> recordamos a algunos grandes del 2020 <span className='text-danger'>.</span>
+          Al finalizar nuestro <span className='text-success'> "Festín Sin Piedra"</span> 2024 <span className='text-warning'>,</span> <br /> tambien recordamos a algunos grandes del 2020 <span className='text-danger'>.</span>
         </h3>
       </div>
       <div className="video-container-video p-5">
