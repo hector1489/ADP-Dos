@@ -1,6 +1,8 @@
 .custom-navbar {
     min-height: 100px;
     border: 1px solid #138b0f;
+    backdrop-filter: blur(10px);
+    background: rgba(154, 240, 142, 0.3);
 }
 
 .text-color-one {

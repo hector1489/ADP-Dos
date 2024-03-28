@@ -1,45 +1,40 @@
-import { useState } from 'react'
-import { Form, Button, Alert } from 'react-bootstrap'
-import './contacto.css'
+import { useState } from 'react';
+import { Form, Button, Alert } from 'react-bootstrap';
+import emailjs from 'emailjs-com';
+import './contacto.css';
 
 const Contacto = () => {
-  const [showError, setShowError] = useState(false)
-  const [showSuccess, setShowSuccess] = useState(false)
-  const [showSending, setShowSending] = useState(false)
+  const [showError, setShowError] = useState(false);
+  const [showSuccess, setShowSuccess] = useState(false);
+  const [showSending, setShowSending] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
-    const form = e.currentTarget
-    const formData = new FormData(form)
+    e.preventDefault();
+    const form = e.currentTarget;
 
-    setShowSending(true)
+    setShowSending(true);
 
     try {
-      const response = await fetch(form.action, {
-        method: form.method,
-        body: formData,
-        headers: {
-          'Accept': 'application/json'
-        }
-      })
+      await emailjs.sendForm(
+        'service_a0x141h',
+        'template_oi5ampe',
+        form,
+        'c4a3zcM5kTNKDmSEk'
+      );
 
-      if (!response.ok) {
-        throw new Error('Error al enviar el formulario')
-      }
-
-      setShowSuccess(true)
-      form.reset()
+      setShowSuccess(true);
+      form.reset();
     } catch (error) {
-      setShowError(true)
-      console.error('Error al enviar el formulario:', error)
+      setShowError(true);
+      console.error('Error al enviar el formulario:', error);
     } finally {
-      setShowSending(false)
+      setShowSending(false);
     }
-  }
+  };
 
   return (
     <div className='custom-form'>
-      <Form className='m-5' onSubmit={handleSubmit} action="https://formsubmit.co/7b450afe941e0d5b65d7597f877b5abb" method="POST">
+      <Form className='m-5' onSubmit={handleSubmit}>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
           <Form.Label>Email</Form.Label>
           <Form.Control type="email" placeholder="name@example.com" name="email" required />
@@ -55,7 +50,7 @@ const Contacto = () => {
         {showSuccess && <Alert variant="success" className="mt-3">¡El formulario se envió correctamente!</Alert>}
       </Form>
     </div>
-  )
-}
+  );
+};
 
-export default Contacto
+export default Contacto;

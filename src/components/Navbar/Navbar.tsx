@@ -12,7 +12,7 @@ const NavBar = () => {
   }
 
   return (
-    <Navbar expand="md" className="custom-navbar bg-body-tertiary" fixed='top'>
+    <Navbar expand="md" className="custom-navbar" fixed='top'>
       <Container>
         <Navbar.Brand href="https://amigosdelpuangue.netlify.app/" className='d-flex align-items-center gap-2'>
           <div className='logo-navbar'>
