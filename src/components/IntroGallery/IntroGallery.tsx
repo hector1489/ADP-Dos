@@ -24,7 +24,7 @@ function CarouselFadeExample() {
       <Carousel.Item>
         <img src={Image3} alt="image3" className="d-block w-100" />
         <Carousel.Caption>
-          <h3>Festin sin piedraa</h3>
+          <h3>Festin sin piedra</h3>
           <p>
             2024.
           </p>
