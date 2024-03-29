@@ -3,7 +3,7 @@
 const Lottery = () => {
 
     return(
-        <div className="d-flex flex-column m-3 text-center">
+        <div className="d-flex flex-column m-5 text-center">
             <h3> <span className="text-warning">!</span> Gran Bingo Gran <span className="text-warning">!</span></h3>
             <p>
             Nos dirigimos a ustedes como la Agrupación Amigos del Puangue, una

@@ -1,10 +1,11 @@
-import { IntroGallery, Footer, Fest } from '../../components/index'
+import { IntroGallery, Footer, Fest, Lottery } from '../../components/index'
 
 const Home = () => {
 
     return (
         <div>
       <IntroGallery />
+      <Lottery />
       <Fest />
       <Footer />
     </div>

@@ -3,7 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <footer className='footer p-3'>
+    <footer className='footer p-3 mt-3'>
 
       <div className="row justify-content-around align-items-center">
 
