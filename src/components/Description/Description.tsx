@@ -4,7 +4,7 @@ const Description = () => {
   return (
     <div className="custom-description m-5">
       <h3 className="section-title text-center fw-bold">
-        <span className='text-warning'>¿</span>Quiénes somos <span className='text-warning'>?</span>
+        Quiénes somos <span className='text-warning'>:</span>
       </h3>
       <p className="section-content">
         La Agrupación "<span className="highlight">Amigos del Puangue</span>", una organización con personalidad jurídica dedicada al cuidado del medio ambiente, el fomento de la cultura y la música en la comuna de Curacaví, Región Metropolitana de Chile.
