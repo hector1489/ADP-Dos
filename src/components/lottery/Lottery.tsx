@@ -6,7 +6,7 @@ const Lottery = () => {
         <div className="d-flex flex-column m-5 text-center">
             <h3> <span className="text-warning">!</span> Gran Bingo Gran <span className="text-warning">!</span></h3>
             <p>
-            Nos dirigimos a ustedes como la Agrupación Amigos del Puangue, una
+            Nos dirigimos a ustedes como la <span className="text-success">Agrupación Amigos del Puangue</span> , una
             organización sin fines de lucro dedicada al desarrollo cultural y
             comunitario en nuestra comuna. Estamos organizando un evento
             importante para recaudar fondos que nos permitirán llevar a cabo
