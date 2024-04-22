@@ -61,5 +61,12 @@
     "title": "Backdraft",
     "image": "https://raw.githubusercontent.com/hector1489/ADP-Dos/main/src/assets/img/Backdraft.png",
     "description": "El HeavyMetal Capitalino presente en escena. "
+  },
+  {
+    "id": 10,
+    "urlVideo": "https://www.youtube.com/watch?v=V_EalpWeSGw&ab_channel=amigosdelpuangue",
+    "title": "Mubastick",
+    "image": "https://raw.githubusercontent.com/hector1489/ADP-Dos/main/src/assets/img/mubastik.png",
+    "description": "Binvenidos al mambo de los muertos."
   }
 ]
