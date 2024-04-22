@@ -68,5 +68,12 @@
     "title": "Mubastick",
     "image": "https://raw.githubusercontent.com/hector1489/ADP-Dos/main/src/assets/img/mubastik.png",
     "description": "Binvenidos al mambo de los muertos."
+  },
+  {
+    "id": 11,
+    "urlVideo": "https://www.youtube.com/watch?v=tBaXLo9aah0&ab_channel=amigosdelpuangue",
+    "title": "Blue Harvest",
+    "image": "https://raw.githubusercontent.com/hector1489/ADP-Dos/main/src/assets/img/mubastik.png",
+    "description": "Blue Harvest banda de la comuna de Curacaví "
   }
 ]
