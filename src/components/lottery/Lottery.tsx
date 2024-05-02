@@ -13,7 +13,7 @@ const Lottery = () => {
             diversas actividades a lo largo del año, y nos gustaría contar con su valioso apoyo.
             </p>
             <p>
-            El evento en cuestión es un bingo que se llevará a cabo el día 25 de mayo de 2024,
+            El evento en cuestión es un bingo que se llevará a cabo el día 26 de mayo de 2024,
             desde las 13<span className="text-warning">:</span>00 hasta las 22<span className="text-warning">:</span>00 horas, en la multicancha de la Escuela Valle de Puangue.
             Ubicada en Jorge Montt 1868, Curacaví, Región Metropolitana de Chile.
             </p>

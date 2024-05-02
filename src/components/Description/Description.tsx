@@ -7,7 +7,7 @@ const Description = () => {
         Quiénes somos <span className='text-warning'>:</span>
       </h3>
       <p className="section-content">
-        La Agrupación "<span className="highlight">Amigos del Puangue</span>", una organización con personalidad jurídica dedicada al cuidado del medio ambiente, el fomento de la cultura y la música en la comuna de Curacaví, Región Metropolitana de Chile.
+        La Agrupación "<span className="highlight">Amigos Del Puangue</span>", una organización con personalidad jurídica dedicada al cuidado del medio ambiente, el fomento de la cultura y la música en la comuna de Curacaví, Región Metropolitana de Chile.
       </p>
       <p>
         Desde nuestra fundación en el año 2005, hemos trabajado incansablemente para promover la protección y preservación del entorno natural de la cuenca del río Puangue, así como para impulsar iniciativas culturales y musicales que enriquezcan nuestra comunidad. Nuestra misión es crear conciencia sobre la importancia de conservar nuestro patrimonio natural y cultural, involucrando a la comunidad en actividades que promuevan un desarrollo sostenible y respetuoso con el medio ambiente.
