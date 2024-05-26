@@ -27,21 +27,21 @@ const Footer = () => {
 
         <div className="col-md-3">
           <div className="d-flex flex-column text-white">
-            <h5 className='fw-bold'>Enlaces</h5>
-            <a href="https://www.instagram.com/amigosdelpuangue/" target="_blank" rel="noopener noreferrer">
-              Instagram
-            </a>
-            <a href="https://www.youtube.com/@amigosdelpuangue7242" target="_blank" rel="noopener noreferrer">
-              Youtube
-            </a>
+            <h5 className='fw-bold'>Contacto</h5>
+            <p>amigosdelpuangue.cvi.20@gmail.com </p>
+            <p>Haz click en nuestras redes sociales.</p>
           </div>
         </div>
 
         <div className="col-md-3">
-          <div className="d-flex flex-column text-white">
-            <h5 className='fw-bold'>Contacto</h5>
-            <p>amigosdelpuangue.cvi.20@gmail.com </p>
-            <p>Haz click en nuestras redes sociales.</p>
+          <div className="d-flex flex-column text-white gap-2">
+            <h5 className='fw-bold'>Enlaces</h5>
+            <a href="https://www.instagram.com/amigosdelpuangue/" target="_blank" rel="noopener noreferrer">
+            <i className="fa-brands fa-instagram fa-2xl"></i>
+            </a>
+            <a href="https://www.youtube.com/@amigosdelpuangue7242" target="_blank" rel="noopener noreferrer">
+            <i className="fa-brands fa-youtube fa-2xl"></i>
+            </a>
           </div>
         </div>
 
