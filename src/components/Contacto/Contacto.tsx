@@ -43,9 +43,12 @@ const Contacto = () => {
           <Form.Label>Envíanos un mensaje</Form.Label>
           <Form.Control as="textarea" rows={3} name="message" required />
         </Form.Group>
-        <Button className="submit-button fw-bold" type="submit" disabled={showSending}>
-          {showSending ? 'Enviando...' : 'Enviar'}
-        </Button>
+        <Form.Group className='mb-3 d-flex flex-column'>
+          <Form.Label>Nuestro email : amigosdelpuangue.cvi.20@gmail.com</Form.Label>
+          <Button className="submit-button fw-bold" type="submit" disabled={showSending}>
+            {showSending ? 'Enviando...' : 'Enviar'}
+          </Button>
+        </Form.Group>
         {showError && <Alert variant="danger" className="mt-3">Error al enviar el formulario. Inténtalo de nuevo más tarde.</Alert>}
         {showSuccess && <Alert variant="success" className="mt-3">¡El formulario se envió correctamente!</Alert>}
       </Form>
