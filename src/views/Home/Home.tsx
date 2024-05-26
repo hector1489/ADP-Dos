@@ -1,4 +1,4 @@
-import { IntroGallery, Footer, Fest, Lottery } from '../../components/index'
+import { IntroGallery, Footer, Fest } from '../../components/index'
 import './Home.css'
 
 const Home = () => {
@@ -6,7 +6,6 @@ const Home = () => {
   return (
     <div>
       <IntroGallery />
-      <Lottery />
       <Fest />
       <div className="Home-arrow d-flex mt-2">
         <a href="#top" className="Home-icon m-2">
