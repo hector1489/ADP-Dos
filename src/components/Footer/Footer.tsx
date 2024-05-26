@@ -3,9 +3,9 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <footer className='footer p-3 mt-3'>
+    <footer className='footer p-3 mt-2'>
 
-      <div className="row justify-content-around align-items-center">
+      <div className="row">
 
         <div className="col-md-3">
           <div className='logo-footer'>
@@ -28,8 +28,12 @@ const Footer = () => {
         <div className="col-md-3">
           <div className="d-flex flex-column text-white">
             <h5 className='fw-bold'>Enlaces</h5>
-            <a href="https://www.instagram.com/amigosdelpuangue/" target="_blank" rel="noopener noreferrer">Instagram</a>
-            <a href="https://www.youtube.com/@amigosdelpuangue7242" target="_blank" rel="noopener noreferrer">Youtube</a>
+            <a href="https://www.instagram.com/amigosdelpuangue/" target="_blank" rel="noopener noreferrer">
+              Instagram
+            </a>
+            <a href="https://www.youtube.com/@amigosdelpuangue7242" target="_blank" rel="noopener noreferrer">
+              Youtube
+            </a>
           </div>
         </div>
 
