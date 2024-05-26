@@ -1,13 +1,33 @@
 .fest-container {
-    width: 100%;
-    text-align: center;
-    margin-top: 3rem;
+  width: 100%;
+  text-align: center;
+  margin-top: 3rem;
 }
 
 .fest-image {
-    max-width: 70%;
-    height: auto;
-    margin-top: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 70%;
+  height: auto;
+  margin-top: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.agradecemos-box {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.agradecemos-img {
+  width: 400px;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.agradecemos-text {
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+}
+
