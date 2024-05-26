@@ -44,7 +44,9 @@ const Contacto = () => {
           <Form.Control as="textarea" rows={3} name="message" required />
         </Form.Group>
         <Form.Group className='mb-3 d-flex flex-column'>
-          <Form.Label>Nuestro email : amigosdelpuangue.cvi.20@gmail.com</Form.Label>
+          <Form.Label>
+            <span className='text-info'>Nuestro email </span><span className='text-warning fw-bold'>:</span> amigosdelpuangue.cvi.20@gmail.com
+          </Form.Label>
           <Button className="submit-button fw-bold" type="submit" disabled={showSending}>
             {showSending ? 'Enviando...' : 'Enviar'}
           </Button>
