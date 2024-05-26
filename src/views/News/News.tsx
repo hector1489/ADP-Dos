@@ -1,11 +1,10 @@
-import { Fest, Lottery } from "../../components"
+import { Fest } from "../../components"
 
 
 const News= () => {
 
     return (
         <div className="d-flex flex-column justify-content-center mt-3">
-        <Lottery />
         <Fest />
         </div>
     )
