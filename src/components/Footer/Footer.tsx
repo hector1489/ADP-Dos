@@ -34,14 +34,16 @@ const Footer = () => {
         </div>
 
         <div className="col-md-3">
-          <div className="d-flex flex-column text-white gap-2">
+          <div className="d-flex flex-column text-white">
             <h5 className='fw-bold'>Enlaces</h5>
+            <div className='d-flex flex-row gap-2'>
             <a href="https://www.instagram.com/amigosdelpuangue/" target="_blank" rel="noopener noreferrer">
               <i className="fa-brands fa-instagram fa-2xl"></i>
             </a>
             <a href="https://www.youtube.com/@amigosdelpuangue7242" target="_blank" rel="noopener noreferrer">
               <i className="fa-brands fa-youtube fa-2xl"></i>
             </a>
+            </div>
           </div>
         </div>
 
