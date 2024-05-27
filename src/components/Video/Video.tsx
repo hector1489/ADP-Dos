@@ -21,14 +21,14 @@ const VideoList = () => {
 
 
   return (
-    <div className="video-container mt-5">
-      <div className='video-container-title d-flex text-center justify-content-center m-3'>
+    <div className="video-container d-flex flex-column mt-5">
+      <div className='video-container-title text-center m-3'>
         <h3 className='p-3'>
           Al finalizar nuestro <span className='text-success'> "Festín Sin Piedra"</span> 2024 <span className='text-warning'>,</span> <br /> tambien recordamos a algunos grandes del 2020 <span className='text-danger'>.</span>
         </h3>
       </div>
-      <div className="video-container-video p-5">
-        <video ref={videoRef} width="100%" height="100%" controls autoPlay muted>
+      <div className="video-container-video">
+        <video ref={videoRef} controls autoPlay muted>
           <source src={videoPresentation} type="video/mp4" />
         </video>
       </div>
