@@ -6,7 +6,7 @@ const Fest = () => {
   return (
     <div className='d-flex flex-column align-items-center'>
       <div className='agradecemos-box d-flex flex-column align-items-center text-center'>
-        <h3>Agradecemos:</h3>
+        <h3>Agradecemos <span className='text-warning'>:</span></h3>
         <div className="agradecemos-text">
           <p>
             Como agrupación, nos enorgullecemos de nuestro equipo de trabajo, quienes,
@@ -14,7 +14,7 @@ const Fest = () => {
             Damos las gracias a cada uno de ellos y a todas las personas involucradas en esta ardua labor.
           </p>
           <p>
-            Por todo el apoyo y compromiso, ¡GRACIAS TOTALES!
+            Por todo el apoyo y compromiso,<span className='fw-bold text-success'> ¡GRACIAS TOTALES!</span>
           </p>
         </div>
         <img src={imgEquipo} alt="Equipo Festín 2024" className='agradecemos-img' />
