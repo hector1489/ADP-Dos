@@ -49,16 +49,16 @@ const Contacto = () => {
           <Form.Label>
             <span className='text-info'>Nuestro email </span><span className='text-warning fw-bold'>:</span> amigosdelpuangue.cvi.20@gmail.com
           </Form.Label>
-          <div className="d-flex flex-row justify-content-around">
-          <a className='social-icon' href="https://www.instagram.com/amigosdelpuangue/" target="_blank" rel="noopener noreferrer">
-            <i className="fa-brands fa-instagram fa-2xl"></i>
-          </a>
-          <a className='social-icon' href="https://www.youtube.com/@amigosdelpuangue7242" target="_blank" rel="noopener noreferrer">
-            <i className="fa-brands fa-youtube fa-2xl"></i>
-          </a>
-          <Button className="submit-button fw-bold" type="submit" disabled={showSending}>
-            {showSending ? 'Enviando...' : 'Enviar'}
-          </Button>
+          <div className="d-flex flex-row justify-content-around align-items-center">
+            <a className='social-icon' href="https://www.instagram.com/amigosdelpuangue/" target="_blank" rel="noopener noreferrer">
+              <i className="fa-brands fa-instagram fa-2xl"></i>
+            </a>
+            <a className='social-icon' href="https://www.youtube.com/@amigosdelpuangue7242" target="_blank" rel="noopener noreferrer">
+              <i className="fa-brands fa-youtube fa-2xl"></i>
+            </a>
+            <Button className="submit-button fw-bold" type="submit" disabled={showSending}>
+              {showSending ? 'Enviando...' : 'Enviar'}
+            </Button>
           </div>
         </Form.Group>
         {showError && <Alert variant="danger" className="mt-3">Error al enviar el formulario. Inténtalo de nuevo más tarde.</Alert>}
