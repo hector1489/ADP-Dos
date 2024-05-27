@@ -1,8 +1,18 @@
 .footer {
-    background-color: #04380b;
+  background-color: #04380b;
 }
 
 .logo-footer img {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+.social-icon {
+  color: rgb(48, 120, 245);
+  transition: color 0.2s;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #1fb839;
 }
