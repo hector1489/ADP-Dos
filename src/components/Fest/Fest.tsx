@@ -6,7 +6,7 @@ const Fest = () => {
   return (
     <div className='d-flex flex-column align-items-center'>
       <div className='agradecemos-box d-flex flex-column align-items-center text-center'>
-        <h3 className='fst-italic'>Agradecemos <span className='text-warning'>:</span></h3>
+        <h3 className='fst-italic m-2'>Agradecemos <span className='text-warning'>:</span></h3>
         <div className="agradecemos-text">
           <p>
             Como agrupación, nos enorgullecemos de nuestro equipo de trabajo, quienes,
