@@ -5,7 +5,7 @@
 
 .gallery-cards {
   max-width: 60rem;
-  max-height: 430px;
+  max-height: 450px;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
