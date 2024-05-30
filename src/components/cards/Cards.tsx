@@ -13,7 +13,7 @@ const CardsList = () => {
   }, [setVideos]);
 
   return (
-    <div className="d-flex flex-wrap justify-content-around">
+    <div className="container-cards">
       {videos.map((video) => (
         <Card key={video.id} className="card mb-3">
           <Card.Img variant="top" src={video.image} alt={video.title} className="card-img-top" />
