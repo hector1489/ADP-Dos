@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { DataContextProvider } from './context/DataContext'
-import { NavBar } from './components/index'
+import { Footer, NavBar } from './components/index'
 import { Home, Contact, Us, News } from './views/index'
 import './App.css'
 
@@ -15,6 +15,7 @@ function App() {
           <Route path="news" element={<News />} />
           <Route path="contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </DataContextProvider>
   )
