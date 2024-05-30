@@ -1,15 +1,44 @@
+.container-us {
+  margin: 2rem;
+  text-align: center;
+}
+
 .gallery-cards {
-  width: 50rem;
-  max-height: 420px;
+  max-width: 60rem;
+  max-height: 430px;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 10px;
-  background: black;
+  background:  linear-gradient(rgba(4, 56, 11, 0.7) 0%, rgba(19, 139, 15, 0.7) 100%);
   margin: auto;
+  margin-top: 70px;
 }
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 25%;
+  }
+
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+
+.card {
+  view-timeline-name: --card;
+  view-timeline-axis: block;
+
+  animation-timeline: --card;
+  animation-name: show;
+
+  animation-range: entry 25% cover 50%;
+  animation-fill-mode: both;
 }

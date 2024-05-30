@@ -5,7 +5,7 @@ import './Us.css'
 const Us = () => {
 
   return (
-    <div className="d-flex flex-column justify-content-center m-3 gap-4">
+    <div className="container-us">
       <Description />
       <Video />
       <div className="gallery-cards">
