@@ -7,7 +7,7 @@ const NavBar = () => {
 
   const setActiveClass = ({ isActive }: { isActive: boolean }) => {
     return isActive
-      ? "text-color-one text-decoration-none me-3 fw-bold"
+      ? "text-color-one text-decoration-none me-3 fw-bold fst-italic"
       : "text-color-two text-decoration-none me-3"
   }
 
@@ -18,7 +18,7 @@ const NavBar = () => {
           <div className='logo-navbar'>
             <img src={logo} alt="logo" />
           </div>
-          <h3>A.D.P.</h3>
+          <h3 className='text-success'>A.D.P.</h3>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
