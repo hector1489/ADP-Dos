@@ -15,7 +15,7 @@ const CardsList = () => {
   return (
     <div className="container-cards">
       {videos.map((video) => (
-        <Card key={video.id} className="card mb-3">
+        <Card key={video.id} className="card">
           <Card.Img variant="top" src={video.image} alt={video.title} className="card-img-top" />
           <Card.Body className='text-white text-center'>
             <Card.Title>{video.title}</Card.Title>

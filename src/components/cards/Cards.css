@@ -1,7 +1,7 @@
 
 
 .card {
-  width: 18rem;
+  max-width: 18rem;
   margin: 20px;
   border-radius: 10px;
   overflow: hidden;
@@ -11,7 +11,6 @@
 
 .card:hover {
   box-shadow: 5px 5px 20px #04380b;
-  transform: translateY(-5px);
 }
 
 .card-body {
