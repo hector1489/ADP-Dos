@@ -36,11 +36,11 @@ const Contacto = () => {
     <div className='custom-form'>
       <Form className='m-5' onSubmit={handleSubmit}>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-          <Form.Label>Email <span className='text-warning'>:</span></Form.Label>
+          <Form.Label>Email <span className='text-warning fw-bold'>:</span></Form.Label>
           <Form.Control type="email" placeholder="name@example.com" name="email" required />
         </Form.Group>
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Envíanos un mensaje <span className='text-warning'>:</span></Form.Label>
+          <Form.Label>Envíanos un mensaje <span className='text-warning fw-bold'>:</span></Form.Label>
           <Form.Control as="textarea" rows={3} name="message" required />
         </Form.Group>
         <FormGroup>
