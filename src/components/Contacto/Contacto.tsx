@@ -40,7 +40,7 @@ const Contacto = () => {
           <Form.Control type="email" placeholder="name@example.com" name="email" required />
         </Form.Group>
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Envíanos un mensaje</Form.Label>
+          <Form.Label>Envíanos un mensaje <span className='text-warning'>:</span></Form.Label>
           <Form.Control as="textarea" rows={3} name="message" required />
         </Form.Group>
         <FormGroup>
