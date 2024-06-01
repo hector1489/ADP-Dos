@@ -33,8 +33,7 @@ const Contacto = () => {
   };
 
   return (
-    <div className='custom-form'>
-      <Form className='m-5' onSubmit={handleSubmit}>
+      <Form className='form m-5' onSubmit={handleSubmit}>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
           <Form.Label>Email <span className='text-warning fw-bold'>:</span></Form.Label>
           <Form.Control type="email" placeholder="name@example.com" name="email" required />
@@ -56,7 +55,7 @@ const Contacto = () => {
             <a className='social-icon' href="https://www.youtube.com/@amigosdelpuangue7242" target="_blank" rel="noopener noreferrer">
               <i className="fa-brands fa-youtube fa-2xl"></i>
             </a>
-            <Button className="submit-button" type="submit" disabled={showSending}>
+            <Button className="submit-button fw-bold" type="submit" disabled={showSending}>
               {showSending ? 'Enviando...' : 'Enviar'}
             </Button>
           </div>
@@ -64,7 +63,6 @@ const Contacto = () => {
         {showError && <Alert variant="danger" className="mt-3">Error al enviar el formulario. Inténtalo de nuevo más tarde.</Alert>}
         {showSuccess && <Alert variant="success" className="mt-3">¡El formulario se envió correctamente!</Alert>}
       </Form>
-    </div>
   );
 };
 

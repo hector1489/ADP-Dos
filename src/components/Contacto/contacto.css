@@ -1,8 +1,16 @@
-.custom-form {
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
     max-width: 500px;
     border: 1px solid #138b0f;
     border-radius: 10px;
     box-shadow: 5px 5px 20px #04380b;
+    padding: 20px;
 }
 
 .submit-button {
