@@ -56,7 +56,7 @@ const Contacto = () => {
             <a className='social-icon' href="https://www.youtube.com/@amigosdelpuangue7242" target="_blank" rel="noopener noreferrer">
               <i className="fa-brands fa-youtube fa-2xl"></i>
             </a>
-            <Button className="submit-button fw-bold" type="submit" disabled={showSending}>
+            <Button className="submit-button" type="submit" disabled={showSending}>
               {showSending ? 'Enviando...' : 'Enviar'}
             </Button>
           </div>

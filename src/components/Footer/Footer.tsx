@@ -8,12 +8,14 @@ const Footer = () => {
       <div className="row">
 
         <div className="col-md-3">
+          <div className='d-flex flex-column justify-content-center text-center m-2'>
           <div className='logo-footer'>
             <img src={logo} alt="logo" />
           </div>
           <div className='text-white mt-1'>
             <h5 className='fw-bold'>A.D.P.</h5>
             <p>Amigos Del Puangue.</p>
+          </div>
           </div>
         </div>
 
