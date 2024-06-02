@@ -10,7 +10,7 @@ const Fest = () => {
         <div className="agradecemos-text">
           <p>
             Como agrupación, nos enorgullecemos de nuestro equipo de trabajo, quienes,
-            como un puñado de corazones e ideales unidos, dieron vida al Festín Sin Piedra 2024.
+            como un puñado de corazones e ideales unidos, dieron vida al <i>Festín Sin Piedra</i> 2024.
             Damos las gracias a cada uno de ellos y a todas las personas involucradas en esta ardua labor.
           </p>
           <p>
