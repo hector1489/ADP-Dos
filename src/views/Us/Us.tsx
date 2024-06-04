@@ -9,6 +9,7 @@ const Us = () => {
       <Description />
       <Video />
       <div className="gallery-cards">
+      <i className="fa-solid fa-arrow-down-wide-short text-warning"></i>
         <Cards />
       </div>
     </div>
