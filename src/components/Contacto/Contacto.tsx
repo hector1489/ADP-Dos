@@ -45,7 +45,7 @@ const Contacto = () => {
         <FormGroup>
         </FormGroup>
         <Form.Group className='mb-3'>
-          <Form.Label className='text-center'>
+          <Form.Label className='span text-center'>
             <span className='text-info'>Nuestro email </span><span className='text-warning fw-bold'>:</span> amigosdelpuangue.cvi.20@gmail.com
           </Form.Label>
           <div className="d-flex flex-wrap justify-content-center align-items-center gap-4">
