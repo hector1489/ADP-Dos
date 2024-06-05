@@ -26,7 +26,10 @@
     background-color: #0056b3;
 }
 
-.span {
-    max-width: 40%;
+.span-label {
+    display: flex;
+    flex-wrap: wrap;
 }
+
+
 

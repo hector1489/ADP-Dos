@@ -45,8 +45,8 @@ const Contacto = () => {
         <FormGroup>
         </FormGroup>
         <Form.Group className='mb-3'>
-          <Form.Label className='span text-center'>
-            <span className='text-info'>Nuestro email </span><span className='text-warning fw-bold'>:</span> amigosdelpuangue.cvi.20@gmail.com
+          <Form.Label className='text-center'>
+            <span className='span-label'><span className='text-info'>Nuestro email </span><span className='text-warning fw-bold'>:</span> amigosdelpuangue.cvi.20@gmail.com</span>
           </Form.Label>
           <div className="d-flex flex-wrap justify-content-center align-items-center gap-4">
             <a className='social-icon' href="https://www.instagram.com/amigosdelpuangue/" target="_blank" rel="noopener noreferrer">
