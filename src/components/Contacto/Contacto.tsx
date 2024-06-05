@@ -44,11 +44,11 @@ const Contacto = () => {
         </Form.Group>
         <FormGroup>
         </FormGroup>
-        <Form.Group className='mb-3'>
+        <Form.Group className='mb-3 mt-4'>
           <Form.Label className='text-center'>
-            <span className='span-label'><span className='text-info'>Nuestro email </span><span className='text-warning fw-bold'>:</span> amigosdelpuangue.cvi.20@gmail.com</span>
+            <p className='span-label'><span className='text-info'>Nuestro email </span><span className='text-warning fw-bold'>:</span> amigosdelpuangue.cvi.20@gmail.com</p>
           </Form.Label>
-          <div className="d-flex flex-wrap justify-content-center align-items-center gap-4">
+          <div className="d-flex flex-wrap justify-content-center align-items-center gap-4 mt-2">
             <a className='social-icon' href="https://www.instagram.com/amigosdelpuangue/" target="_blank" rel="noopener noreferrer">
               <i className="fa-brands fa-instagram fa-2xl"></i>
             </a>
