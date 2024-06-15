@@ -1,27 +1,27 @@
 .custom-navbar {
-    min-height: 100px;
-    border: 1px solid #138b0f;
-    backdrop-filter: blur(10px);
-    background: rgba(154, 240, 142, 0.3);
+  min-height: 100px;
+  border: 1px solid #138b0f;
+  backdrop-filter: blur(10px);
+  background: rgba(154, 240, 142, 0.3);
 }
 
 .text-color-one {
- color: #0dbb1b ;
+  color: #0dbb1b;
 }
 
 .text-color-two {
-    color: #04380b;
+  color: #04380b;
 }
 
 .logo-navbar img {
-    width: 70px;
-    height: 70px;
+  width: 70px;
+  height: 70px;
 }
 
 .navbar-nav .nav-link {
-    color: #fffefe;
+  color: #fffefe;
 }
 
 .navbar-nav .nav-link:hover {
-    color: #f2f4f5;
+  color: #f2f4f5;
 }
