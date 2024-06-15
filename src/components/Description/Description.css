@@ -1,32 +1,33 @@
 .custom-description {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 .section-title {
-    font-size: 1.5rem;
-    color: #333;
+  font-size: 1.5rem;
+  color: #333;
 }
 
 .highlight {
-    color: #00bcd4;
+  color: #00bcd4;
 }
 
 .section-content {
-    font-size: 1rem;
-    color: #666;
-    line-height: 1.5;
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
 }
 
 .section-title-hr {
-    max-width: 200px;
-    height: 1px;
-    border: 1px solid rgb(255, 111, 0);
-    background-color: rgb(255, 111, 0);
-    display: block;
-    margin: auto;
-  }
-  .white-hr {
-    border: 1px solid rgb(255, 255, 255);
-    background-color: rgb(255, 255, 255);
-    display: block;
-  }
+  max-width: 200px;
+  height: 1px;
+  border: 1px solid rgb(255, 111, 0);
+  background-color: rgb(255, 111, 0);
+  display: block;
+  margin: auto;
+}
+
+.white-hr {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  display: block;
+}
